@@ -61,11 +61,11 @@ export default function LoginPage() {
                 placeholder="password"
             />
             <button
-                className="p-2 bg-blue-500 text-white rounded-md"
+                className="p-2 bg-blue-500 text-white rounded-md mt-4 hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed"
                 onClick={onLogin}>
                 Log in
             </button>
-            <Link href="/signup">Sign Up here</Link>
+            <Link href="/signup" className="mt-4 underline">Sign Up here</Link>
         </div>
     )
 }
